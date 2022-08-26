@@ -79,7 +79,7 @@
                                                     <a href="view_client.php?id=<?= $client['id']; ?>" class="btn btn-info btn-sm">Ver</a>
                                                     <a href="edit_client.php?id=<?= $client['id']; ?>" class="btn btn-success btn-sm">Editar</a>-
                                                     <form action="code.php" method="POST" class="d-inline">
-                                                        <button type="submit" name="delete_client" value="<?=$client['id'];?>" class="btn btn-danger btn-sm">Borrar</button>
+                                                        <button type="submit" name="delete_client" value="<?=$client['id'];?>" class="btn btn-danger btn-sm">Eliminar</button>
                                                     </form>
                                                 </td>
                                             </tr>
